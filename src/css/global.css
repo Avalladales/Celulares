@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body nav{
+    width: 120rem;
+}
+
+body > .Canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Canvas {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 800px;
+    height: auto;
+
+    background-color: #e3f2fd;
+    border-radius: 50px;
+}
+
+
+.footer {
+    font-size: 11px; text-align: center;
+}
+
+.footer a{
+    color: hsl(228, 45%, 44%);
+}
